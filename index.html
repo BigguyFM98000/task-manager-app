@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Fetch API Tutorial</title>
+		<link rel="stylesheet" href="style.css" />
+	</head>
+	<body>
+		<h1>Fetch API Tutorial</h1>
+		<main>
+			<section class="form-container">
+				<form id="myform" class="my-form">
+					<input
+						type="text"
+						name="title"
+						id="title"
+						placeholder="Enter the title"
+						required
+					/>
+					<textarea
+						name="description"
+						id="description"
+						cols="30"
+						rows="5"
+						placeholder="Enter the description"
+					></textarea>
+					<input
+						type="text"
+						name="status"
+						id="status"
+						placeholder="Enter the status"
+						required
+					/>
+					<input
+						type="text"
+						name="priority"
+						id="priority"
+						placeholder="Enter the priority"
+					/>
+					<button id="btn">Create Task</button>
+					<button id="btn-edit">Edit Task</button>
+				</form>
+			</section>
+			<section class="display-results">
+				<h1>Available Tasks</h1>
+				<div class="details"></div>
+			</section>
+		</main>
+		<script src="app.js" defer></script>
+	</body>
+</html>

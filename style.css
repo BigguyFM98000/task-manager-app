@@ -1,0 +1,41 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	background-color: bisque;
+	height: auto;
+	padding: 1.5em;
+}
+
+.form-container {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	gap: 1em;
+	padding: 1.5em;
+}
+
+.my-form {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 1em;
+}
+
+.details {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 0.5em;
+}
+
+.display-results {
+	padding: 1.5em;
+	margin-bottom: 1em;
+}
