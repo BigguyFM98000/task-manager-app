@@ -52,7 +52,7 @@ body {
 }
 
 #btn {
-	padding: 0.3em;
+	padding: 0.5em;
 	background-color: green;
 	border: none;
 	border-radius: 0.5em;
@@ -62,7 +62,7 @@ body {
 }
 
 #btn-edit {
-	padding: 0.3em;
+	padding: 0.5em;
 	background-color: orange;
 	border: none;
 	border-radius: 0.5em;
@@ -77,6 +77,12 @@ body {
 	justify-content: center;
 	align-items: center;
 	gap: 0.5em;
+}
+
+.display-results h1 {
+	text-align: center;
+	color: #333;
+	font-size: 2em;
 }
 
 .display-results {
